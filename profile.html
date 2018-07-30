@@ -1,0 +1,416 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Twitter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+                <a class="navbar-brand" href="#"><img alt="Brand" src="images/tw.png" height="25px" class="icon"></a>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav   ">
+                    <li class="navbar-link">
+                        <a class="link-primary " href="#">Home 
+                    <span class="sr-only">(current)</span>
+                 </a>
+                    </li>
+                    <li class="navbar-link">
+                        <a class="link-primary " href="#">Notification</a>
+                    </li>
+                    <li class="navbar-link">
+                        <a class="link-primary " href="#">Messages</a>
+                    </li>
+                </ul>
+
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" class="form-control search search-twi" placeholder="Search Twitter ">
+                        <span class="glyphicons glyphicons-search"></span>
+
+                    </div>
+                    <img src="images/person.jpg" alt="..." class="img-circle profile-picture" height="30px">
+                    <button type="submit" class="btn btn-default btn btn-info tweet tweet-btn">Tweet</button>
+                </form>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- End Navbar-->
+    <!--Start jumbotron-->
+    <div class="jumo">
+        <img src="images/nature-2-26-17.jpg " width="100% " height="160px">
+    </div>
+    <div class="image header">
+        <img alt="img-person" src="images/person.jpg" class=" img-circle img-person-profile" height="180px">
+
+    </div>
+    <!--Start menu -->
+
+    <ul class="list-inline menu">
+        <li class="active"><a href="#"><span style="color: black">Tweets</span><p>1,812</p></a></li>
+        <li><a href="#"><span style="color: black">Following</span><p>520</p</a></li>
+        <li><a href="#"><span style="color: black">Followers</span><p>588</p</a></li>
+        <li><a href="#"><span style="color: black">Likes</span><p>1,812</p</a></li>
+        <li><a href="#"><span style="color: black">Lists</span><p>0</p</a></li>
+        <li><a href="#"><span style="color: black">Moments</span><p>0</p</a></li>
+
+    </ul>
+    <a href="#" class="btn btn-default edit-profile" role="button">Edit profile</a>
+
+    <!--End menu-->
+    </div>
+    <!--End jumbotron-->
+    <br><br><br><br>
+    <div class="container cont-profile">
+        <div class="hidden-xs col-sm-3  info-det">
+            <div class="infor-body">
+                <p class="username-profile">
+                    <span><b font-size="14px">User Name</b> </span><br>
+                    <span><p font-size="10px">@User_Name</p> </span>
+                </p> <br>
+                <p>Syria</p>
+                <p>Joined January 2012</p>
+                <p>Born March 1988</p>
+                <a>212 Photos and videos</a>
+            </div>
+            <div class=" col-sm-12">
+                <div class="col-sm-4  foto-detail">
+                    <img src="images/1.jpg" class="img-rounded" width="60px" height="62px">
+                </div>
+                <div class=" col-sm-4 foto-detail">
+                    <img src="images/2.png" class="img-rounded" width="60px" height="62px">
+                </div>
+                <div class=" col-sm-4 foto-detail">
+                    <img src="images//3.jpg" class="img-rounded" width="60px" height="62px">
+                </div>
+                <div class=" col-sm-4 foto-detail">
+                    <img src="images/4.jpg" class="img-rounded" width="60px" height="62px">
+                </div>
+                <div class="  col-sm-4 foto-detail">
+                    <img src="images/5.jpg" class="img-rounded" width="60px" height="62px">
+                </div>
+                <div class=" col-sm-4 foto-detail">
+                    <img src="images/6.jpg" class="img-rounded" width="60px" height="62px">
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm-5 body-tab">
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#tweets" aria-controls="tweets" role="tab" data-toggle="tab">Tweets</a></li>
+                <li role="presentation"><a href="#Tweets-replies" aria-controls="Tweets-replies" role="tab" data-toggle="tab">Tweets&replies</a></li>
+                <li role="presentation"><a href="#media" data-toggle="tab">Media</a></li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <!--start Tweets-->
+                <div role="tabpanel" class="tab-pane active" id="tweets">
+                    <div class="body-tweet-tab">
+                        <div class="header-tweet">
+                            <img src="images/person.jpg" class="img-circle" width="50px" height="50">
+                            <span class="address">
+                                        <b>The Telgraph</b>
+                                        <i>@telgraph .4m</i>
+                                        
+                                      </span>
+                            <div class="dropdown drop-impeded">
+
+                                <span class="caret dropdown-toggle " id="menu1" data-toggle="dropdown"></span>
+                                <ul class="dropdown-menu" aria-labelledby="menu1">
+                                    <li><a href="#">Share via Direct Message </a></li>
+                                    <li><a href="#">Copy Link To Tweet</a></li>
+                                    <li><a href="#">Embed Tweet</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Add to new Moment</a></li>
+                                </ul>
+                                </span>
+                            </div>
+                            <br> <br>
+                            <p>
+                                "Trump's aluminum tariffs restore a crucial industry and protect American jobs," industry leaders Jesse Gary and Bob Prusak write in the Washington Examiner.
+                            </p>
+                            <img src="images/Germany.jpg" width="85%">
+                            <br>
+                            <hr>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="body-tweet-tab">
+                        <div class="header-tweet">
+                            <img src="images/person.jpg" class="img-circle" width="50px" height="50">
+                            <span class="address">
+                                            <b>The Telgraph</b>
+                                            <i>@telgraph .4m</i>
+                                            
+                                          </span>
+                            <div class="dropdown drop-impeded">
+
+                                <span class="caret dropdown-toggle " id="menu1" data-toggle="dropdown"></span>
+                                <ul class="dropdown-menu" aria-labelledby="menu1">
+                                    <li><a href="#">Share via Direct Message </a></li>
+                                    <li><a href="#">Copy Link To Tweet</a></li>
+                                    <li><a href="#">Embed Tweet</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Add to new Moment</a></li>
+                                </ul>
+                                </span>
+                            </div>
+                            <br> <br>
+                            <p>
+                                "Trump's aluminum tariffs restore a crucial industry and protect American jobs," industry leaders Jesse Gary and Bob Prusak write in the Washington Examiner.
+                            </p>
+                            <img src="images/Germany.jpg" width="85%">
+                            <br>
+                            <hr class="line-body">
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <!--End tweets-->
+                <!--Tweets&replies-->
+                <div role="tabpanel" class="tab-pane " id="Tweets-replies">
+                    <div class="body-tweet-tab">
+                        <div class="header-tweet">
+                            <img src="images/person.jpg" class="img-circle" width="50px" height="50">
+                            <span class="address">
+                                                    <b>The Telgraph</b>
+                                                    <i>@telgraph .4m</i>
+                                                    
+                                                  </span>
+                            <div class="dropdown drop-impeded">
+
+                                <span class="caret dropdown-toggle " id="menu1" data-toggle="dropdown"></span>
+                                <ul class="dropdown-menu" aria-labelledby="menu1">
+                                    <li><a href="#">Share via Direct Message </a></li>
+                                    <li><a href="#">Copy Link To Tweet</a></li>
+                                    <li><a href="#">Embed Tweet</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Add to new Moment</a></li>
+                                </ul>
+                                </span>
+                            </div>
+                            <br> <br>
+                            <p>
+                                "Trump's aluminum tariffs restore a crucial industry and protect American jobs," industry leaders Jesse Gary and Bob Prusak write in the Washington Examiner.
+                            </p>
+                            <img src="images/Germany.jpg" width="85%">
+                            <br>
+                            <hr class="line-body">
+
+                        </div>
+
+
+
+
+                    </div>
+                    <!--Eng tweets&replies-->
+
+
+
+
+                </div>
+                <!--Start media-->
+                <div role="tabpanel" class="tab-pane " id="media">
+
+                    <div class="body-tweet-tab">
+                        <div class="header-tweet">
+                            <img src="images/person.jpg" class="img-circle" width="50px" height="50">
+                            <span class="address">
+                                                            <b>The Telgraph</b>
+                                                            <i>@telgraph .4m</i>
+                                                            
+                                                          </span>
+                            <div class="dropdown drop-impeded">
+
+                                <span class="caret dropdown-toggle " id="menu1" data-toggle="dropdown"></span>
+                                <ul class="dropdown-menu" aria-labelledby="menu1">
+                                    <li><a href="#">Share via Direct Message </a></li>
+                                    <li><a href="#">Copy Link To Tweet</a></li>
+                                    <li><a href="#">Embed Tweet</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Add to new Moment</a></li>
+                                </ul>
+                                </span>
+                            </div>
+                            <br> <br>
+                            <img src="images/Germany.jpg" width="50%" height="280px">
+                            <img src="images/nature-2-26-17.jpg" width="50%" height="280px" style="float: left;">
+
+
+
+                            <br>
+                            <hr class="line-body ">
+
+                        </div>
+
+                        <div class="body-tweet-tab">
+                            <div class="header-tweet">
+                                <img src="images/person.jpg" class="img-circle" width="50px" height="50">
+                                <span class="address">
+                                                                    <b>The Telgraph</b>
+                                                                    <i>@telgraph .4m</i>
+                                                                    
+                                                                  </span>
+                                <div class="dropdown drop-impeded">
+
+                                    <span class="caret dropdown-toggle " id="menu1" data-toggle="dropdown"></span>
+                                    <ul class="dropdown-menu" aria-labelledby="menu1">
+                                        <li><a href="#">Share via Direct Message </a></li>
+                                        <li><a href="#">Copy Link To Tweet</a></li>
+                                        <li><a href="#">Embed Tweet</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Add to new Moment</a></li>
+                                    </ul>
+                                    </span>
+                                </div>
+                                <br> <br>
+                                <img src="images/2.png" width="50%" height="280px">
+                                <img src="images/3.jpg" width="50%" height="280px" style="float: left;">
+
+
+
+                                <br>
+                                <hr class="line-body ">
+
+                            </div>
+
+
+
+
+                        </div>
+                        <!--End media-->
+
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        <div class="hidden-xs col-sm-4 col-md-4 right-side-profile">
+            <div class="suggestion-follow">
+                <div>
+
+                    <p style="padding-top: 15px;">
+                        <b style="font-size: 16px"> Your Tweet Activity</b>
+
+                    </p>
+                    <p>
+                        Your Tweets earned<b>6,298 impressions</b>
+                    </p>
+                    <p>
+                        over the last<b>28 days</b>
+
+                    </p>
+                    <div>
+                        <a>Find People you know</a>
+                    </div>
+
+                </div>
+            </div>
+            <br>
+            <div class="hidden-xs col-sm-4 col-md-4 right-side-profile"></div>
+
+            <div class="suggestion-follow">
+                <div class="header-sugg">
+                    <span>
+                      <p><b>Who to follow</b><span>.<a> Refresh</a>.<a> View all</a></span></p>
+                    </span>
+
+                </div>
+                <div class="body-sugg">
+                    <img src="images/person.jpg" class="img-circle" width="40px" height="40">
+                    <span class="address">
+                          <b>The Telgraph</b>
+                          <i>@telgraph </i>
+                          <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </span>
+                    <button type="button" class="btn follow-btn">Follow</button>
+                </div>
+
+                <div class="body-sugg">
+                    <img src="images/person.jpg" class="img-circle" width="40px" height="40">
+                    <span class="address">
+                              <b>The Telgraph</b>
+                              <i>@telgraph </i>
+                              <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </span>
+                    <button type="button" class="btn   follow-btn">Follow</button>
+                </div>
+
+                <div class="body-sugg">
+                    <img src="images/person.jpg" class="img-circle" width="40px" height="40">
+                    <span class="address">
+                                  <b>The Telgraph</b>
+                                  <i>@telgraph </i>
+                                  <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </span>
+                    <button type="button" class="btn   follow-btn">Follow</button>
+                </div>
+
+
+
+
+            </div>
+            <br><br><br>
+            <footer class="fot-twit">
+                <i>
+                        © 2018 TwitterAboutHelp CentreTermsPrivacy policyCookiesAds info Brand Blog Status Apps Jobs Marketing Businesses Developers
+                    </i>
+                <br>
+
+                <a>Advertise with Twitter</a>
+            </footer>
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+
+
+
+</html>

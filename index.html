@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Twitter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+                <a class="navbar-brand" href="#"><img alt="Brand" src="images/tw.png" height="25px" class="icon"></a>
+
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav   ">
+                    <li class="navbar-link">
+                        <a class="link-primary " href="#">Home 
+                <span class="sr-only">(current)</span>
+             </a>
+                    </li>
+                    <li class="navbar-link">
+                        <a class="link-primary " href="#">Notification</a>
+                    </li>
+                    <li class="navbar-link">
+                        <a class="link-primary " href="#">Messages</a>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" class="form-control search search-twi" placeholder="Search Twitter ">
+                        <span class="glyphicons glyphicons-search"></span>
+
+                    </div>
+                    <img src="images/person.jpg" alt="..." class="img-circle profile-picture" height="30px">
+                    <button type="submit" class="btn btn-default btn btn-info tweet tweet-btn">Tweet</button>
+                </form>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!--End navbar -->
+
+
+    <div class="row">
+        <div class="hidden-xs col-md-3 col-sm-4 info-tred ">
+            <div class="image header">
+                <img alt="image header" src="images/beach.jpeg" width="100%" height="130px">
+
+            </div>
+            <div class="body-information">
+                <img alt="img-person" src="images/person.jpg" class="img-circle img-person" height="80px">
+                <p class="username">
+                    <span><b font-size="10px">User Name</b> </span><br>
+                    <span><b font-size="10px">@User_Name</b> </span>
+                </p>
+                <div class="col-12">
+                    <nav>
+                        <ul class="nav nav-pills nav-trend">
+                            <li role="presentation" class="enabled"><a href="#"><span style="color: gray; font-size:12px;">Tweets</span> <p>1,800</p> </a></li>
+                            <li role="presentation" class="enabled"><a href="#"><span style="color: gray; font-size:12px;">Following</span> <p color="blue">618</p> </a></li>
+                            <li role="presentation" class="enabled"><a href="#"><span style="color: gray; font-size:12px;">Followers</span> <p>588</p> </a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+
+
+
+            <div class="trend">
+                <div class="col-md-12 left-side ">
+                    <p><b class="header-trend">Trends for you .</b><span><a>chage</a></span></p>
+                </div>
+                <div class="list-trend">
+                    <p>
+                        <a><b>#Sport</b></a>
+                        <p>
+                            <span><a><b>@home</b></a><a><b>@dd_r</b></a> <a> more are Tweeting<br> about this</a> </span>
+                        </p>
+                    </p>
+                    <p>
+                        <a><b>#world_cup</b></a>
+                        <p class="footer-trend">
+                            <span><a><b>@world_cup</b></a><a><b>@dd_r</b></a></span>
+                        </p>
+                    </p>
+                    <p>
+                        <a><b>#Trump</b></a>
+                        <p class="footer-trend">
+                            <span>18000 Tweets</span>
+                        </p>
+                    </p>
+                    <p>
+                        <a><b>#USA</b></a>
+                        <p class="footer-trend">
+                            <span>18000 Tweets</span>
+                        </p>
+                    </p>
+                    <p>
+                        <a><b>#Trump</b></a>
+                        <p class="footer-trend">
+                            <span>18000 Tweets</span>
+                        </p>
+                    </p>
+                    <p>
+                        <a><b>#Trump</b></a></a>
+                        <p class="footer-trend">
+                            <span>18000 Tweets</span>
+                        </p>
+                    </p>
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-sm-4 col-md-6 middle-body ">
+            <div class="body-tweet">
+                <div class="header-tweet">
+                    <img src="images/person.jpg" class="img-circle" width="50px" height="50">
+                    <span class="address">
+                        <b>The Telgraph</b>
+                        <i>@telgraph .4m</i>
+                        
+                      </span>
+                    <div class="dropdown drop-impeded">
+
+                        <span class="caret dropdown-toggle " id="menu1" data-toggle="dropdown"></span>
+                        <ul class="dropdown-menu" aria-labelledby="menu1">
+                            <li><a href="#">Share via Direct Message </a></li>
+                            <li><a href="#">Copy Link To Tweet</a></li>
+                            <li><a href="#">Embed Tweet</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Add to new Moment</a></li>
+                        </ul>
+                        </span>
+                    </div>
+                    <br> <br>
+                    <p>
+                        "Trump's aluminum tariffs restore a crucial industry and protect American jobs," industry leaders Jesse Gary and Bob Prusak write in the Washington Examiner.
+                    </p>
+                    <img>
+
+                </div>
+                <hr>
+            </div>
+
+            <div class="body-tweet">
+                <div class="header-tweet">
+                    <img src="images/person.jpg" class="img-circle" width="50px" height="50">
+                    <span class="address">
+                        <b>The Telgraph</b>
+                        <i>@telgraph .4m</i>
+                         
+                      </span>
+                    <span class="caret "></span>
+                    <br> <br>
+
+                    <p>
+                        Germany’s military is a case study in an armed force in need of new equipment. The problems cut across the Bundeswehr and are particularly acute with the aging air force. Germany’s combat air fleet
+                    </p>
+                    <img src="images/Germany.jpg" width="85%">
+
+                </div>
+                <hr>
+            </div>
+            <div class="body-tweet">
+                <div class="header-tweet">
+                    <img src="images/person.jpg" class="img-circle" width="50px" height="50">
+                    <span class="address">
+                        <b>The Telgraph</b>
+                        <i>@telgraph .4m</i>
+                         
+                      </span>
+                    <div class="dropdown drop-impeded">
+
+                        <span class="caret dropdown-toggle " id="menu1" data-toggle="dropdown"></span>
+                        <ul class="dropdown-menu" aria-labelledby="menu1">
+                            <li><a href="#">Share via Direct Message </a></li>
+                            <li><a href="#">Copy Link To Tweet</a></li>
+                            <li><a href="#">Embed Tweet</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Add to new Moment</a></li>
+                        </ul>
+                        </span>
+                    </div>
+                    <br> <br>
+                    <p>
+                        "Trump's aluminum tariffs restore a crucial industry and protect American jobs," industry leaders Jesse Gary and Bob Prusak write in the Washington Examiner.
+                    </p>
+                    <img>
+
+                </div>
+                <hr>
+            </div>
+        </div>
+
+        <div class="hidden-xs col-sm-4 col-md-3 right-side">
+            <div class="suggestion-follow">
+                <div class="header-sugg">
+                    <span>
+                  <p><b>Who to follow</b><span>.<a> Refresh</a>.<a> View all</a></span></p>
+                    </span>
+
+                </div>
+                <div class="body-sugg">
+                    <img src="images/person.jpg" class="img-circle" width="40px" height="40">
+                    <span class="address">
+                      <b>The Telgraph</b>
+                      <i>@telgraph </i>
+                      <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </span>
+                    <button type="button" class="btn follow-btn">Follow</button>
+                </div>
+                <hr>
+                <div class="body-sugg">
+                    <img src="images/person.jpg" class="img-circle" width="40px" height="40">
+                    <span class="address">
+                          <b>The Telgraph</b>
+                          <i>@telgraph </i>
+                          <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </span>
+                    <button type="button" class="btn   follow-btn">Follow</button>
+                </div>
+                <hr>
+                <div class="body-sugg">
+                    <img src="images/person.jpg" class="img-circle" width="40px" height="40">
+                    <span class="address">
+                              <b>The Telgraph</b>
+                              <i>@telgraph </i>
+                              <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </span>
+                    <button type="button" class="btn   follow-btn">Follow</button>
+                </div>
+                <hr>
+                <div>
+                    <a>Find People you know</a>
+                </div>
+
+
+            </div>
+            <br>
+            <footer class="fot-twit">
+                <i>
+                    © 2018 TwitterAboutHelp CentreTermsPrivacy policyCookiesAds info Brand Blog Status Apps Jobs Marketing Businesses Developers
+                </i>
+                <br>
+                <hr>
+                <a>Advertise with Twitter</a>
+            </footer>
+
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
